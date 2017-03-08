@@ -7,7 +7,7 @@
 //
 
 #import "FViewController.h"
-
+#import "VDGaugeView.h"
 @interface FViewController ()
 
 @end

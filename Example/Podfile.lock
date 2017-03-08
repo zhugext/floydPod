@@ -1,5 +1,5 @@
 PODS:
-  - floydPod (0.1.0)
+  - floydPod (0.1.2)
 
 DEPENDENCIES:
   - floydPod (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  floydPod: 3816c1da6b0dfe439c02660590b9e1d219fb3cc9
+  floydPod: cc0535a61d73542904f63a83c37abd3dc568cb7e
 
 PODFILE CHECKSUM: fa8c0cca6815fc5fabda2840edb40dda66318648
 

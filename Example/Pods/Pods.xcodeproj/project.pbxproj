@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		199C38FA6972BFA2BD2607925F663CEC /* Pods-floydPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8CB470605B0FFB581ACC0ED03ECCEA /* Pods-floydPod_Example-dummy.m */; };
-		3A9A5594783C645B0F939A1C82FCF276 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		2E7EB28E083F7623964D4C058E62CA47 /* floydPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACC01479FF29034462FC6044EDCAC18 /* floydPod-dummy.m */; };
+		4F736BABB9508D0405A08191C6197285 /* floydPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 66B78F8FF848083D4F8B008CFC429CDF /* floydPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DE0F85AD6BA699F227397B16B9CD877 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		9388A289A871BBD81D7157CC6E9933A6 /* Pods-floydPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB7B479D81956E4D76CB94E17511879 /* Pods-floydPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD1AD5158DFF93355F0109BACD5000FC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDA480E715634ADA48BB80F63623329 /* ReplaceMe.m */; };
+		9653CA1EF1A0220471EB539B1DC49FB4 /* VDGaugeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8765B719B947472981ED2FCD0B7F0874 /* VDGaugeView.m */; };
 		DC673C82ED545A13EC3E09414F61B1A5 /* Pods-floydPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1941B46843F8F897E69EA9CC65DE4D2 /* Pods-floydPod_Tests-dummy.m */; };
 		E0B197BF19834BB9F3D2AD852BFD6DEB /* Pods-floydPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB79FD5BBBCB7C1F7379ABBEA8ECD9E5 /* Pods-floydPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4B5D0B7BE9A81A489D61989110929D8 /* floydPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C29A3D5B0224CFD62ABB7EEED544421 /* floydPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D737B4BF4ABB9E08DB9CE84AB7F0AF /* VDGaugeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4CCFA868A30B51777241A352B2E145 /* VDGaugeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F56644DF80443F93212BBBA2FBD2D33A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		F7C836F4305A24A41A53E146060B3696 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		FE5400EA9352C0AFC90309ED38027411 /* floydPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 713F703C5CFCAE814DCF8880A83975FD /* floydPod-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,41 +25,42 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E19ABBC2F45A1DFF8D7139EBC9AD889A;
+			remoteGlobalIDString = 48F6466BBB5E2CDCD66A49E9363132ED;
 			remoteInfo = floydPod;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AE090E0B4F674BD48409CDE9EFD0E39 /* floydPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = floydPod.modulemap; sourceTree = "<group>"; };
+		0ACC01479FF29034462FC6044EDCAC18 /* floydPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "floydPod-dummy.m"; sourceTree = "<group>"; };
+		0F0593FD0F44A39122AB998286D39B54 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D56CFB2CEDEB25AA2F3B7E6BBC915F3 /* Pods-floydPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-floydPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		25BC24C0BEBD493AE53A306F75250EAC /* Pods-floydPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-floydPod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		314D08A092883F8043B9CB85B559ABDF /* floydPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = floydPod.modulemap; sourceTree = "<group>"; };
 		32BD880F565B803FC27B62B7E242FE79 /* Pods-floydPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-floydPod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4EC63F4C9FF2C8068050D7D2E7E4A9C0 /* Pods_floydPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_floydPod_Example.framework; path = "Pods-floydPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5323680821F880812BA0C864727D219E /* Pods-floydPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-floydPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		572E0D5B3032675FE373A4A123B5DA34 /* Pods-floydPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-floydPod_Tests-resources.sh"; sourceTree = "<group>"; };
-		58501908E3E5F6F075F7E6289B7EF338 /* floydPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "floydPod-prefix.pch"; sourceTree = "<group>"; };
 		62B1957B2487E9B03BDD50061AF2B562 /* Pods-floydPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-floydPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		657C7C96E2DC308E4F1D178EBAC39F20 /* Pods_floydPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_floydPod_Tests.framework; path = "Pods-floydPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B78F8FF848083D4F8B008CFC429CDF /* floydPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "floydPod-umbrella.h"; sourceTree = "<group>"; };
 		6B782805A1BEFB2AC4F0893F7872A06D /* Pods-floydPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-floydPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		713F703C5CFCAE814DCF8880A83975FD /* floydPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "floydPod-dummy.m"; sourceTree = "<group>"; };
 		7A6506EDD77AA14CFB3D332CFC69C7DE /* Pods-floydPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-floydPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7B8CB470605B0FFB581ACC0ED03ECCEA /* Pods-floydPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-floydPod_Example-dummy.m"; sourceTree = "<group>"; };
-		7C29A3D5B0224CFD62ABB7EEED544421 /* floydPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "floydPod-umbrella.h"; sourceTree = "<group>"; };
 		873B56A3AED8BEDC1F04E99D001EFF28 /* Pods-floydPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-floydPod_Example.modulemap"; sourceTree = "<group>"; };
+		8765B719B947472981ED2FCD0B7F0874 /* VDGaugeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VDGaugeView.m; sourceTree = "<group>"; };
+		8E4CCFA868A30B51777241A352B2E145 /* VDGaugeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VDGaugeView.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95699251108003942174B45D71028B87 /* Pods-floydPod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-floydPod_Example-resources.sh"; sourceTree = "<group>"; };
 		9D0A6682F794F54F55E5D1B2C6BF76FC /* Pods-floydPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-floydPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9DC30B62E2CC3FEC8F5A38570CB7AC8A /* Pods-floydPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-floydPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A13F6AC36C67530FE3ADFDF91E6A8F99 /* floydPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = floydPod.xcconfig; sourceTree = "<group>"; };
+		AD524D06B70EB62083F6F2C118FAFCB0 /* floydPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "floydPod-prefix.pch"; sourceTree = "<group>"; };
 		B1941B46843F8F897E69EA9CC65DE4D2 /* Pods-floydPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-floydPod_Tests-dummy.m"; sourceTree = "<group>"; };
 		B1D7E02F1480A4EC118352C9B2265DD9 /* Pods-floydPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-floydPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B37B6EF35C0EC021C78269C4C3ED72D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBFE51382F43E7151C60BF418C1D5649 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4940FEDC79DED78768FD2E7C1DBA320 /* floydPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = floydPod.framework; path = floydPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA01085F877D31FD144E6E98B1695F09 /* Pods-floydPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-floydPod_Tests.modulemap"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CFDA480E715634ADA48BB80F63623329 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		EA86E2CFECC7EC5461AB415A45A4F1BD /* floydPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = floydPod.xcconfig; sourceTree = "<group>"; };
 		EB79FD5BBBCB7C1F7379ABBEA8ECD9E5 /* Pods-floydPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-floydPod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		ECB7B479D81956E4D76CB94E17511879 /* Pods-floydPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-floydPod_Example-umbrella.h"; sourceTree = "<group>"; };
 		F40024EDE323408EFB5EE6516CBD1543 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,6 +75,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7D803AED1898FE65886DAE25B2C77D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56644DF80443F93212BBBA2FBD2D33A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7EA5CF4585304F0E99537E24FEE1238C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,17 +91,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7EDA0060BBD2742552B8C7EA92E0BE23 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3A9A5594783C645B0F939A1C82FCF276 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07EA974BB571A4FC779EEA0FC2FA9E43 /* floydPod */ = {
+			isa = PBXGroup;
+			children = (
+				154BCFF2780A4790236162FD62E56DEE /* pod */,
+				AE039909A46A79B0F03F1EFC25856580 /* Support Files */,
+			);
+			name = floydPod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		08BF1B69F3F04AAB0188A0CCEB1170BE /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,13 +131,13 @@
 			path = "Target Support Files/Pods-floydPod_Example";
 			sourceTree = "<group>";
 		};
-		242810AC08BE2406109B776B553F837B /* floydPod */ = {
+		154BCFF2780A4790236162FD62E56DEE /* pod */ = {
 			isa = PBXGroup;
 			children = (
-				9235B2C2CD349D05261B17F7447C12BF /* Classes */,
+				CE41AA872D45852A3F2772E9D67FCDB4 /* Classes */,
 			);
-			name = floydPod;
-			path = floydPod;
+			name = pod;
+			path = pod;
 			sourceTree = "<group>";
 		};
 		71BDBE98C423FF3A4247BE5605630B8C /* Products */ = {
@@ -157,24 +169,15 @@
 			);
 			sourceTree = "<group>";
 		};
-		9235B2C2CD349D05261B17F7447C12BF /* Classes */ = {
+		AE039909A46A79B0F03F1EFC25856580 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CFDA480E715634ADA48BB80F63623329 /* ReplaceMe.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		9825430DC1DC17FA92781C8E330145D9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0AE090E0B4F674BD48409CDE9EFD0E39 /* floydPod.modulemap */,
-				EA86E2CFECC7EC5461AB415A45A4F1BD /* floydPod.xcconfig */,
-				713F703C5CFCAE814DCF8880A83975FD /* floydPod-dummy.m */,
-				58501908E3E5F6F075F7E6289B7EF338 /* floydPod-prefix.pch */,
-				7C29A3D5B0224CFD62ABB7EEED544421 /* floydPod-umbrella.h */,
-				B37B6EF35C0EC021C78269C4C3ED72D1 /* Info.plist */,
+				314D08A092883F8043B9CB85B559ABDF /* floydPod.modulemap */,
+				A13F6AC36C67530FE3ADFDF91E6A8F99 /* floydPod.xcconfig */,
+				0ACC01479FF29034462FC6044EDCAC18 /* floydPod-dummy.m */,
+				AD524D06B70EB62083F6F2C118FAFCB0 /* floydPod-prefix.pch */,
+				66B78F8FF848083D4F8B008CFC429CDF /* floydPod-umbrella.h */,
+				0F0593FD0F44A39122AB998286D39B54 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/floydPod";
@@ -206,20 +209,20 @@
 			path = "Target Support Files/Pods-floydPod_Tests";
 			sourceTree = "<group>";
 		};
-		C2BCC2119830889FC0ED879A3AD207C0 /* floydPod */ = {
+		CE41AA872D45852A3F2772E9D67FCDB4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				242810AC08BE2406109B776B553F837B /* floydPod */,
-				9825430DC1DC17FA92781C8E330145D9 /* Support Files */,
+				8E4CCFA868A30B51777241A352B2E145 /* VDGaugeView.h */,
+				8765B719B947472981ED2FCD0B7F0874 /* VDGaugeView.m */,
 			);
-			name = floydPod;
-			path = ../..;
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		F1A6117A121C215EDDFA34A82944D1F3 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C2BCC2119830889FC0ED879A3AD207C0 /* floydPod */,
+				07EA974BB571A4FC779EEA0FC2FA9E43 /* floydPod */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -227,14 +230,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2725C2F92348F70BDCBFC96BE4396A11 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4B5D0B7BE9A81A489D61989110929D8 /* floydPod-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		774A8F9190C92D1E4B2DB94D4F076029 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,9 +246,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8844559430733108799930AB22AAB2FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F736BABB9508D0405A08191C6197285 /* floydPod-umbrella.h in Headers */,
+				E1D737B4BF4ABB9E08DB9CE84AB7F0AF /* VDGaugeView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		48F6466BBB5E2CDCD66A49E9363132ED /* floydPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC734893FD676FE191A27F9EA02C69BD /* Build configuration list for PBXNativeTarget "floydPod" */;
+			buildPhases = (
+				AFADC51FCF7B70059E3F0BD763106F23 /* Sources */,
+				7D803AED1898FE65886DAE25B2C77D6A /* Frameworks */,
+				8844559430733108799930AB22AAB2FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = floydPod;
+			productName = floydPod;
+			productReference = C4940FEDC79DED78768FD2E7C1DBA320 /* floydPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B04A283C79773EF186821268638E15B4 /* Pods-floydPod_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E767A06D93517091EDA978418A87683 /* Build configuration list for PBXNativeTarget "Pods-floydPod_Example" */;
@@ -289,23 +310,6 @@
 			productReference = 657C7C96E2DC308E4F1D178EBAC39F20 /* Pods_floydPod_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E19ABBC2F45A1DFF8D7139EBC9AD889A /* floydPod */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F25A38A0483766DE2A6081BAE6BB1D7A /* Build configuration list for PBXNativeTarget "floydPod" */;
-			buildPhases = (
-				BAE31D32B563EC6AC6B8871FEA39C850 /* Sources */,
-				7EDA0060BBD2742552B8C7EA92E0BE23 /* Frameworks */,
-				2725C2F92348F70BDCBFC96BE4396A11 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = floydPod;
-			productName = floydPod;
-			productReference = C4940FEDC79DED78768FD2E7C1DBA320 /* floydPod.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -327,7 +331,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E19ABBC2F45A1DFF8D7139EBC9AD889A /* floydPod */,
+				48F6466BBB5E2CDCD66A49E9363132ED /* floydPod */,
 				B04A283C79773EF186821268638E15B4 /* Pods-floydPod_Example */,
 				B145403E7972F56D6621F9BF7E27AD97 /* Pods-floydPod_Tests */,
 			);
@@ -351,12 +355,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BAE31D32B563EC6AC6B8871FEA39C850 /* Sources */ = {
+		AFADC51FCF7B70059E3F0BD763106F23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE5400EA9352C0AFC90309ED38027411 /* floydPod-dummy.m in Sources */,
-				AD1AD5158DFF93355F0109BACD5000FC /* ReplaceMe.m in Sources */,
+				2E7EB28E083F7623964D4C058E62CA47 /* floydPod-dummy.m in Sources */,
+				9653CA1EF1A0220471EB539B1DC49FB4 /* VDGaugeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +370,7 @@
 		B9A8625FA0561959F27A3BA526D0D266 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = floydPod;
-			target = E19ABBC2F45A1DFF8D7139EBC9AD889A /* floydPod */;
+			target = 48F6466BBB5E2CDCD66A49E9363132ED /* floydPod */;
 			targetProxy = 2442B4CC10C95BCA06AF804887D74645 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -406,6 +410,68 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		6BD5C9F1DAACE1BCF9A76DDB9D65F6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A13F6AC36C67530FE3ADFDF91E6A8F99 /* floydPod.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/floydPod/floydPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/floydPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/floydPod/floydPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = floydPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8135837BC1318301EF449FD76AC6BAA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A13F6AC36C67530FE3ADFDF91E6A8F99 /* floydPod.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/floydPod/floydPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/floydPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/floydPod/floydPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = floydPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -561,37 +627,6 @@
 			};
 			name = Release;
 		};
-		C3F9798E2F565B138D9DFE805A66B167 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA86E2CFECC7EC5461AB415A45A4F1BD /* floydPod.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/floydPod/floydPod-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/floydPod/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/floydPod/floydPod.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = floydPod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		C940424DE6980800DF30EE3734FD50DC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B782805A1BEFB2AC4F0893F7872A06D /* Pods-floydPod_Tests.debug.xcconfig */;
@@ -627,37 +662,6 @@
 			};
 			name = Debug;
 		};
-		DCFC2DA32CC4CEB23530BE46DF72DF1A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA86E2CFECC7EC5461AB415A45A4F1BD /* floydPod.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/floydPod/floydPod-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/floydPod/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/floydPod/floydPod.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = floydPod;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -688,11 +692,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F25A38A0483766DE2A6081BAE6BB1D7A /* Build configuration list for PBXNativeTarget "floydPod" */ = {
+		DC734893FD676FE191A27F9EA02C69BD /* Build configuration list for PBXNativeTarget "floydPod" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3F9798E2F565B138D9DFE805A66B167 /* Debug */,
-				DCFC2DA32CC4CEB23530BE46DF72DF1A /* Release */,
+				6BD5C9F1DAACE1BCF9A76DDB9D65F6C3 /* Debug */,
+				8135837BC1318301EF449FD76AC6BAA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

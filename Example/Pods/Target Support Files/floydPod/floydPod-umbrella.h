@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "VDGaugeView.h"
 
 FOUNDATION_EXPORT double floydPodVersionNumber;
 FOUNDATION_EXPORT const unsigned char floydPodVersionString[];
