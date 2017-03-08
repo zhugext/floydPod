@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'floydPod'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'floydPod pod 0.1.0 version '
 
 # This description is used to generate tags and improve search results.
