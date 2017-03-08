@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'floydPod'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'floydPod pod 0.1.0 version '
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'floydPod/Classes/**/*'
+  s.source_files = 'pod/Classes/VDGaugeView.{h,m}'
   
   # s.resource_bundles = {
   #   'floydPod' => ['floydPod/Assets/*.png']
